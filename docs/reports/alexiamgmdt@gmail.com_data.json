@@ -1,0 +1,1400 @@
+{
+  "username": "alexiamgmdt@gmail.com",
+  "timestamp": "2026-01-30T18:32:39.597864",
+  "findings": [
+    {
+      "source": "Maigret",
+      "data": "\u001b[?25l"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |                                        | ▁▃▅ 0/500 [0%] in 0s (~0s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |                                        | ▂▄▆ 0/500 [0%] in 0s (~0s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |                                        | ▃▅▇ 0/500 [0%] in 0s (~0s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█▎                                      | ▄▆█ 16/500 [3%] in 0s (~9s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█▉                                      | ▅▇▇ 24/500 [5%] in 0s (~9s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 24:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█▉                                      | ▆█▆ 24/500 [5%] in 0s (~8s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██▋                                     | ▇▇▅ 33/500 [7%] in 0s (~8s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███▍                                    | █▆▄ 42/500 [8%] in 0s (~7s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███▋                                    | ▇▅▃ 46/500 [9%] in 1s (~7s,"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████▎                                   | ▆▄▂ 53/500 [11%] in 1s (~6s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████▍                                   | ▅▃▁ 54/500 [11%] in 1s (~6s"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 54:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████▍                                   | ▄▂▂ 54/500 [11%] in 1s (~6s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████▍                                   | ▃▁▃ 55/500 [11%] in 1s (~6s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████▌                                   | ▂▂▄ 57/500 [11%] in 1s (~6s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████▏                                | ▁▃▅ 89/500 [18%] in 1s (~5s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████▌                                | ▂▄▆ 94/500 [19%] in 1s (~5s"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 94:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████▌                                | ▃▅▇ 94/500 [19%] in 1s (~4s"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 95:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████▋                                | ▄▆█ 95/500 [19%] in 1s (~4s"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 96:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████▋                                | ▅▇▇ 96/500 [19%] in 1s (~4s"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████▋                               | ▆█▆ 108/500 [22%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 109:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████▊                               | ▇▇▅ 109/500 [22%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 109:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████▊                               | █▆▄ 109/500 [22%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 110:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████▊                               | ▇▅▃ 110/500 [22%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 121:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████▋                              | ▆▄▂ 121/500 [24%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 122:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████▊                              | ▅▃▁ 122/500 [24%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 123:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████▉                              | ▄▂▂ 123/500 [25%] in 1s (~4"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████▊                             | ▃▁▃ 134/500 [27%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████▏                            | ▂▂▄ 139/500 [28%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████▉                            | ▁▃▅ 149/500 [30%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████▍                           | ▂▄▆ 154/500 [31%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 157:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████▌                           | ▃▅▇ 157/500 [31%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████▉                           | ▄▆█ 161/500 [32%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 165:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▎                          | ▅▇▇ 165/500 [33%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▆█▆ 170/500 [34%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 170:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▇▇▅ 170/500 [34%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 170:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | █▆▄ 170/500 [34%] in 1s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 170:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▇▅▃ 170/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 170:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▆▄▂ 170/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 171:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▅▃▁ 171/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 171:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▄▂▂ 171/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 171:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▋                          | ▃▁▃ 171/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 172:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▊                          | ▂▂▄ 172/500 [34%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 173:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▉                          | ▁▃▅ 173/500 [35%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 174:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████▉                          | ▂▄▆ 174/500 [35%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 198:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████▉                        | ▃▅▇ 198/500 [40%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████▏                      | ▄▆█ 214/500 [43%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████▊                      | ▅▇▇ 222/500 [44%] in 2s (~3"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████▍                     | ▆█▆ 230/500 [46%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 232:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████▌                     | ▇▇▅ 232/500 [46%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 235:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████▊                     | █▆▄ 235/500 [47%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████▌                    | ▇▅▃ 243/500 [49%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 244:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████▌                    | ▆▄▂ 244/500 [49%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 246:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████▋                    | ▅▃▁ 246/500 [49%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 246:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████▋                    | ▄▂▂ 246/500 [49%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████▍                   | ▃▁▃ 255/500 [51%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████▌                  | ▂▂▄ 268/500 [54%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████▉                  | ▁▃▅ 273/500 [55%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 273:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████▉                  | ▂▄▆ 273/500 [55%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████▍                 | ▃▅▇ 280/500 [56%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████▊                 | ▄▆█ 284/500 [57%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████▏                | ▅▇▇ 289/500 [58%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████▋                | ▆█▆ 295/500 [59%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████▊               | ▇▇▅ 309/500 [62%] in 2s (~2"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████▏              | █▆▄ 314/500 [63%] in 2s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████▋              | ▇▅▃ 321/500 [64%] in 2s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████▊              | ▆▄▂ 322/500 [64%] in 2s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████▏             | ▅▃▁ 327/500 [65%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 333:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████▋             | ▄▂▂ 333/500 [67%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████▍            | ▃▁▃ 342/500 [68%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████▋            | ▂▂▄ 345/500 [69%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 350:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████            | ▁▃▅ 350/500 [70%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 350:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████            | ▂▄▆ 350/500 [70%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████▊           | ▃▅▇ 360/500 [72%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 363:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████           | ▄▆█ 363/500 [73%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████▉          | ▅▇▇ 373/500 [75%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 376:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████▏         | ▆█▆ 376/500 [75%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████▊         | ▇▇▅ 385/500 [77%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████▍        | █▆▄ 392/500 [78%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████▉        | ▇▅▃ 399/500 [80%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████▍       | ▆▄▂ 405/500 [81%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████       | ▅▃▁ 412/500 [82%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 420:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████▋      | ▄▂▂ 420/500 [84%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████▍     | ▃▁▃ 429/500 [86%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████▉     | ▂▂▄ 436/500 [87%] in 3s (~1"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████▏    | ▁▃▅ 439/500 [88%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████▌    | ▂▄▆ 443/500 [89%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████▋    | ▃▅▇ 445/500 [89%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "on 448:"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████▉    | ▄▆█ 448/500 [90%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████    | ▅▇▇ 450/500 [90%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▌   | ▆█▆ 456/500 [91%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▌   | ▇▇▅ 457/500 [91%] in 3s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▋   | █▆▄ 458/500 [92%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▊   | ▇▅▃ 460/500 [92%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▊   | ▆▄▂ 460/500 [92%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████▉   | ▅▃▁ 461/500 [92%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████   | ▄▂▂ 462/500 [92%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▎  | ▃▁▃ 465/500 [93%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▎  | ▂▂▄ 466/500 [93%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▍  | ▁▃▅ 467/500 [93%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▌  | ▂▄▆ 468/500 [94%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▌  | ▃▅▇ 469/500 [94%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▋  | ▄▆█ 470/500 [94%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▋  | ▅▇▇ 470/500 [94%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▋  | ▆█▆ 471/500 [94%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |█████████████████████████████████████▉  | ▇▇▅ 473/500 [95%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████  | █▆▄ 475/500 [95%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████  | ▇▅▃ 475/500 [95%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▏ | ▆▄▂ 476/500 [95%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▏ | ▅▃▁ 477/500 [95%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▎ | ▄▂▂ 478/500 [96%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▃▁▃ 481/500 [96%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▂▂▄ 481/500 [96%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▁▃▅ 481/500 [96%] in 4s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▂▄▆ 482/500 [96%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▃▅▇ 482/500 [96%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▄▆█ 482/500 [96%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▌ | ▅▇▇ 482/500 [96%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▋ | ▆█▆ 483/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▊ | ▇▇▅ 484/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▊ | █▆▄ 484/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▊ | ▇▅▃ 484/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▊ | ▆▄▂ 484/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▊ | ▅▃▁ 485/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |██████████████████████████████████████▉ | ▄▂▂ 486/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████ | ▃▁▃ 487/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████ | ▂▂▄ 487/500 [97%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▏| ▁▃▅ 489/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▎| ▂▄▆ 490/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▎| ▃▅▇ 490/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▎| ▄▆█ 490/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▎| ▅▇▇ 490/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▎| ▆█▆ 491/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▇▇▅ 492/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| █▆▄ 492/500 [98%] in 5s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▇▅▃ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▆▄▂ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▅▃▁ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▄▂▂ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▃▁▃ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▂▂▄ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▍| ▁▃▅ 492/500 [98%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▂▄▆ 493/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▃▅▇ 493/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▄▆█ 493/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▅▇▇ 493/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▆█▆ 493/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▇▇▅ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| █▆▄ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▇▅▃ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▆▄▂ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▅▃▁ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▌| ▄▂▂ 494/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 6s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 9s (~0"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆█▆ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▇▅ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| █▆▄ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▇▅▃ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▆▄▂ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▃▁ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▂▂ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▁▃ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 10s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 12s (~"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 12s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 12s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 12s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▃▅▇ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▄▆█ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▅▇▇ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▆█▆ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▇▇▅ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| █▆▄ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▇▅▃ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▆▄▂ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▅▃▁ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▄▂▂ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 13s ("
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s (\u001b[?25h"
+    },
+    {
+      "source": "Maigret",
+      "data": "Searching |████████████████████████████████████████| 500/500 [100%] in 13.4s (37"
+    },
+    {
+      "source": "Maigret",
+      "data": "Search by username alexiamgmdt@gmail.com returned 37 accounts."
+    },
+    {
+      "source": "Maigret",
+      "data": "Extended info extracted from 0 accounts."
+    },
+    {
+      "source": "Maigret",
+      "data": "Countries: us, ru, in, br, vn, th, sg, kr, tw, jp, tr, ph"
+    },
+    {
+      "source": "Maigret",
+      "data": "Interests (tags): gaming, forum, tech, tasks, documents, sharing, dating, networking"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] AniWorld: https://aniworld.to/user/profil/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] BoardGameGeek: https://boardgamegeek.com/user/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Chaos: https://chaos.social/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Cracked Forum: https://cracked.sh/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Cults3D: https://cults3d.com/en/users/alexiamgmdt@gmail.com/creations"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Discord: https://discord.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Football: https://www.rusfootball.info/user/alexiamgmdt@gmail.com/"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Hive Blog: https://hive.blog/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] HudsonRock: https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Patched: https://patched.sh/User/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Shelf: https://www.shelf.im/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] Trello: https://trello.com/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] chaos.social: https://chaos.social/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] livelib: https://www.livelib.ru/reader/alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] mastodon.cloud: https://mastodon.cloud/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] mastodon.social: https://mastodon.social/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] mastodon.xyz: https://mastodon.xyz/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] mstdn.social: https://mstdn.social/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] mstdn.io: https://mstdn.io/@alexiamgmdt@gmail.com"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] omg.lol: https://alexiamgmdt@gmail.com.omg.lol"
+    },
+    {
+      "source": "Sherlock",
+      "data": "[+] social.tchncs.de: https://social.tchncs.de/@alexiamgmdt@gmail.com"
+    }
+  ],
+  "maigret": {
+    "success": true,
+    "output": "[-] Starting a search on top 500 sites from the Maigret database...\n[!] You can run search by full list of sites with flag `-a`\n[*] Checking username alexiamgmdt@gmail.com on:\n\u001b[?25l\nSearching |                                        | ▁▃▅ 0/500 [0%] in 0s (~0s, \nSearching |                                        | ▂▄▆ 0/500 [0%] in 0s (~0s, \nSearching |                                        | ▃▅▇ 0/500 [0%] in 0s (~0s, \nSearching |█▎                                      | ▄▆█ 16/500 [3%] in 0s (~9s,\nSearching |█▉                                      | ▅▇▇ 24/500 [5%] in 0s (~9s,\non 24: \n[+] Trello: https://trello.com/alexiamgmdt%40gmail.com\n\nSearching |█▉                                      | ▆█▆ 24/500 [5%] in 0s (~8s,\nSearching |██▋                                     | ▇▇▅ 33/500 [7%] in 0s (~8s,\nSearching |███▍                                    | █▆▄ 42/500 [8%] in 0s (~7s,\nSearching |███▋                                    | ▇▅▃ 46/500 [9%] in 1s (~7s,\nSearching |████▎                                   | ▆▄▂ 53/500 [11%] in 1s (~6s\nSearching |████▍                                   | ▅▃▁ 54/500 [11%] in 1s (~6s\non 54: \n[+] opensea.io: https://opensea.io/accounts/alexiamgmdt%40gmail.com\n\nSearching |████▍                                   | ▄▂▂ 54/500 [11%] in 1s (~6s\nSearching |████▍                                   | ▃▁▃ 55/500 [11%] in 1s (~6s\nSearching |████▌                                   | ▂▂▄ 57/500 [11%] in 1s (~6s\nSearching |███████▏                                | ▁▃▅ 89/500 [18%] in 1s (~5s\nSearching |███████▌                                | ▂▄▆ 94/500 [19%] in 1s (~5s\non 94: \n[+] Tom's guide: http://forums.tomsguide.com/members/?username=alexiamgmdt%40gmail.com\n\nSearching |███████▌                                | ▃▅▇ 94/500 [19%] in 1s (~4s\non 95: \n[+] mercadolivre: https://www.mercadolivre.com.br/perfil/alexiamgmdt%40gmail.com\n\nSearching |███████▋                                | ▄▆█ 95/500 [19%] in 1s (~4s\non 96: \n[+] Roblox: https://www.roblox.com/user.aspx?username=alexiamgmdt%40gmail.com\n\nSearching |███████▋                                | ▅▇▇ 96/500 [19%] in 1s (~4s\nSearching |████████▋                               | ▆█▆ 108/500 [22%] in 1s (~4\non 109: \n[+] OP.GG [LeagueOfLegends] Oceania: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=oce\n\nSearching |████████▊                               | ▇▇▅ 109/500 [22%] in 1s (~4\non 109: \n[+] OP.GG [LeagueOfLegends] Middle East: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=me\n\nSearching |████████▊                               | █▆▄ 109/500 [22%] in 1s (~4\non 110: \n[+] Kaggle: https://www.kaggle.com/alexiamgmdt%40gmail.com\n\nSearching |████████▊                               | ▇▅▃ 110/500 [22%] in 1s (~4\non 121: \n[+] OP.GG [LeagueOfLegends] LAN: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=lan\n\nSearching |█████████▋                              | ▆▄▂ 121/500 [24%] in 1s (~4\non 122: \n[+] OP.GG [LeagueOfLegends] North America: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=na\n\nSearching |█████████▊                              | ▅▃▁ 122/500 [24%] in 1s (~4\non 123: \n[+] OP.GG [LeagueOfLegends] Vietnam: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=vn\n\nSearching |█████████▉                              | ▄▂▂ 123/500 [25%] in 1s (~4\nSearching |██████████▊                             | ▃▁▃ 134/500 [27%] in 1s (~3\nSearching |███████████▏                            | ▂▂▄ 139/500 [28%] in 1s (~3\nSearching |███████████▉                            | ▁▃▅ 149/500 [30%] in 1s (~3\nSearching |████████████▍                           | ▂▄▆ 154/500 [31%] in 1s (~3\non 157: \n[+] OP.GG [LeagueOfLegends] Thailand: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=th\n\nSearching |████████████▌                           | ▃▅▇ 157/500 [31%] in 1s (~3\nSearching |████████████▉                           | ▄▆█ 161/500 [32%] in 1s (~3\non 165: \n[+] OP.GG [LeagueOfLegends] Singapore: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=sg\n\nSearching |█████████████▎                          | ▅▇▇ 165/500 [33%] in 1s (~3\nSearching |█████████████▋                          | ▆█▆ 170/500 [34%] in 1s (~3\non 170: \n[+] OP.GG [LeagueOfLegends] Brazil: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=br\n\nSearching |█████████████▋                          | ▇▇▅ 170/500 [34%] in 1s (~3\non 170: \n[+] OP.GG [LeagueOfLegends] Europe West: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=euw\n\nSearching |█████████████▋                          | █▆▄ 170/500 [34%] in 1s (~3\non 170: \n[+] OP.GG [LeagueOfLegends] Korea: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=kr\n\nSearching |█████████████▋                          | ▇▅▃ 170/500 [34%] in 2s (~3\non 170: \n[+] OP.GG [LeagueOfLegends] Russia: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=ru\n\nSearching |█████████████▋                          | ▆▄▂ 170/500 [34%] in 2s (~3\non 171: \n[+] OP.GG [LeagueOfLegends] Taiwan: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=tw\n\nSearching |█████████████▋                          | ▅▃▁ 171/500 [34%] in 2s (~3\non 171: \n[+] OP.GG [LeagueOfLegends] Japan: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=jp\n\nSearching |█████████████▋                          | ▄▂▂ 171/500 [34%] in 2s (~3\non 171: \n[+] OP.GG [LeagueOfLegends] Turkey: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=tr\n\nSearching |█████████████▋                          | ▃▁▃ 171/500 [34%] in 2s (~3\non 172: \n[+] OP.GG [LeagueOfLegends] Phillippines: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=ph\n\nSearching |█████████████▊                          | ▂▂▄ 172/500 [34%] in 2s (~3\non 173: \n[+] OP.GG [LeagueOfLegends] LAS: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=las\n\nSearching |█████████████▉                          | ▁▃▅ 173/500 [35%] in 2s (~3\non 174: \n[+] OP.GG [LeagueOfLegends] Europe Nordic & East: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=eune\n\nSearching |█████████████▉                          | ▂▄▆ 174/500 [35%] in 2s (~3\non 198: \n[+] TechPowerUp: https://www.techpowerup.com/forums/members/?username=alexiamgmdt%40gmail.com\n\nSearching |███████████████▉                        | ▃▅▇ 198/500 [40%] in 2s (~3\nSearching |█████████████████▏                      | ▄▆█ 214/500 [43%] in 2s (~3\nSearching |█████████████████▊                      | ▅▇▇ 222/500 [44%] in 2s (~3\nSearching |██████████████████▍                     | ▆█▆ 230/500 [46%] in 2s (~2\non 232: \n[+] Studfile: https://studfile.net/users/alexiamgmdt%40gmail.com/\n\nSearching |██████████████████▌                     | ▇▇▅ 232/500 [46%] in 2s (~2\non 235: \n[+] Livemaster: https://www.livemaster.ru/alexiamgmdt%40gmail.com\n\nSearching |██████████████████▊                     | █▆▄ 235/500 [47%] in 2s (~2\nSearching |███████████████████▌                    | ▇▅▃ 243/500 [49%] in 2s (~2\non 244: \n[+] forums.bulbagarden.net: http://forums.bulbagarden.net/members/?username=alexiamgmdt%40gmail.com\n\nSearching |███████████████████▌                    | ▆▄▂ 244/500 [49%] in 2s (~2\non 246: \n[+] forums.serebii.net: https://forums.serebii.net/members/?username=alexiamgmdt%40gmail.com\n\nSearching |███████████████████▋                    | ▅▃▁ 246/500 [49%] in 2s (~2\non 246: \n[+] authorSTREAM: http://www.authorstream.com/author/alexiamgmdt%40gmail.com/\n\nSearching |███████████████████▋                    | ▄▂▂ 246/500 [49%] in 2s (~2\nSearching |████████████████████▍                   | ▃▁▃ 255/500 [51%] in 2s (~2\nSearching |█████████████████████▌                  | ▂▂▄ 268/500 [54%] in 2s (~2\nSearching |█████████████████████▉                  | ▁▃▅ 273/500 [55%] in 2s (~2\non 273: \n[+] AdultFriendFinder: https://adultfriendfinder.com/profile/alexiamgmdt%40gmail.com\n\nSearching |█████████████████████▉                  | ▂▄▆ 273/500 [55%] in 2s (~2\nSearching |██████████████████████▍                 | ▃▅▇ 280/500 [56%] in 2s (~2\nSearching |██████████████████████▊                 | ▄▆█ 284/500 [57%] in 2s (~2\nSearching |███████████████████████▏                | ▅▇▇ 289/500 [58%] in 2s (~2\nSearching |███████████████████████▋                | ▆█▆ 295/500 [59%] in 2s (~2\nSearching |████████████████████████▊               | ▇▇▅ 309/500 [62%] in 2s (~2\nSearching |█████████████████████████▏              | █▆▄ 314/500 [63%] in 2s (~1\nSearching |█████████████████████████▋              | ▇▅▃ 321/500 [64%] in 2s (~1\nSearching |█████████████████████████▊              | ▆▄▂ 322/500 [64%] in 2s (~1\nSearching |██████████████████████████▏             | ▅▃▁ 327/500 [65%] in 3s (~1\non 333: \n[+] hashnode: https://hashnode.com/@alexiamgmdt%40gmail.com\n\nSearching |██████████████████████████▋             | ▄▂▂ 333/500 [67%] in 3s (~1\nSearching |███████████████████████████▍            | ▃▁▃ 342/500 [68%] in 3s (~1\nSearching |███████████████████████████▋            | ▂▂▄ 345/500 [69%] in 3s (~1\non 350: \n[+] hi5: http://www.hi5.com/alexiamgmdt%40gmail.com\n\nSearching |████████████████████████████            | ▁▃▅ 350/500 [70%] in 3s (~1\non 350: \n[+] iXBT: https://forum.ixbt.com/users.cgi?id=info:alexiamgmdt%40gmail.com\n\nSearching |████████████████████████████            | ▂▄▆ 350/500 [70%] in 3s (~1\nSearching |████████████████████████████▊           | ▃▅▇ 360/500 [72%] in 3s (~1\non 363: \n[+] getmyuni: https://www.getmyuni.com/user/alexiamgmdt%40gmail.com\n\nSearching |█████████████████████████████           | ▄▆█ 363/500 [73%] in 3s (~1\nSearching |█████████████████████████████▉          | ▅▇▇ 373/500 [75%] in 3s (~1\non 376: \n[+] Blu-ray: https://forum.blu-ray.com/member.php?username=alexiamgmdt%40gmail.com\n\nSearching |██████████████████████████████▏         | ▆█▆ 376/500 [75%] in 3s (~1\nSearching |██████████████████████████████▊         | ▇▇▅ 385/500 [77%] in 3s (~1\nSearching |███████████████████████████████▍        | █▆▄ 392/500 [78%] in 3s (~1\nSearching |███████████████████████████████▉        | ▇▅▃ 399/500 [80%] in 3s (~1\nSearching |████████████████████████████████▍       | ▆▄▂ 405/500 [81%] in 3s (~1\nSearching |█████████████████████████████████       | ▅▃▁ 412/500 [82%] in 3s (~1\non 420: \n[+] 3ddd: https://3ddd.ru/users/alexiamgmdt%40gmail.com\n\nSearching |█████████████████████████████████▋      | ▄▂▂ 420/500 [84%] in 3s (~1\nSearching |██████████████████████████████████▍     | ▃▁▃ 429/500 [86%] in 3s (~1\nSearching |██████████████████████████████████▉     | ▂▂▄ 436/500 [87%] in 3s (~1\nSearching |███████████████████████████████████▏    | ▁▃▅ 439/500 [88%] in 3s (~0\nSearching |███████████████████████████████████▌    | ▂▄▆ 443/500 [89%] in 3s (~0\nSearching |███████████████████████████████████▋    | ▃▅▇ 445/500 [89%] in 3s (~0\non 448: \n[+] Bibsonomy: https://www.bibsonomy.org/user/alexiamgmdt%40gmail.com\n\nSearching |███████████████████████████████████▉    | ▄▆█ 448/500 [90%] in 3s (~0\nSearching |████████████████████████████████████    | ▅▇▇ 450/500 [90%] in 3s (~0\nSearching |████████████████████████████████████▌   | ▆█▆ 456/500 [91%] in 3s (~0\nSearching |████████████████████████████████████▌   | ▇▇▅ 457/500 [91%] in 3s (~0\nSearching |████████████████████████████████████▋   | █▆▄ 458/500 [92%] in 4s (~0\nSearching |████████████████████████████████████▊   | ▇▅▃ 460/500 [92%] in 4s (~0\nSearching |████████████████████████████████████▊   | ▆▄▂ 460/500 [92%] in 4s (~0\nSearching |████████████████████████████████████▉   | ▅▃▁ 461/500 [92%] in 4s (~0\nSearching |█████████████████████████████████████   | ▄▂▂ 462/500 [92%] in 4s (~0\nSearching |█████████████████████████████████████▎  | ▃▁▃ 465/500 [93%] in 4s (~0\nSearching |█████████████████████████████████████▎  | ▂▂▄ 466/500 [93%] in 4s (~0\nSearching |█████████████████████████████████████▍  | ▁▃▅ 467/500 [93%] in 4s (~0\nSearching |█████████████████████████████████████▌  | ▂▄▆ 468/500 [94%] in 4s (~0\nSearching |█████████████████████████████████████▌  | ▃▅▇ 469/500 [94%] in 4s (~0\nSearching |█████████████████████████████████████▋  | ▄▆█ 470/500 [94%] in 4s (~0\nSearching |█████████████████████████████████████▋  | ▅▇▇ 470/500 [94%] in 4s (~0\nSearching |█████████████████████████████████████▋  | ▆█▆ 471/500 [94%] in 4s (~0\nSearching |█████████████████████████████████████▉  | ▇▇▅ 473/500 [95%] in 4s (~0\nSearching |██████████████████████████████████████  | █▆▄ 475/500 [95%] in 4s (~0\nSearching |██████████████████████████████████████  | ▇▅▃ 475/500 [95%] in 4s (~0\nSearching |██████████████████████████████████████▏ | ▆▄▂ 476/500 [95%] in 4s (~0\nSearching |██████████████████████████████████████▏ | ▅▃▁ 477/500 [95%] in 4s (~0\nSearching |██████████████████████████████████████▎ | ▄▂▂ 478/500 [96%] in 4s (~0\nSearching |██████████████████████████████████████▌ | ▃▁▃ 481/500 [96%] in 4s (~0\nSearching |██████████████████████████████████████▌ | ▂▂▄ 481/500 [96%] in 4s (~0\nSearching |██████████████████████████████████████▌ | ▁▃▅ 481/500 [96%] in 4s (~0\nSearching |██████████████████████████████████████▌ | ▂▄▆ 482/500 [96%] in 5s (~0\nSearching |██████████████████████████████████████▌ | ▃▅▇ 482/500 [96%] in 5s (~0\nSearching |██████████████████████████████████████▌ | ▄▆█ 482/500 [96%] in 5s (~0\nSearching |██████████████████████████████████████▌ | ▅▇▇ 482/500 [96%] in 5s (~0\nSearching |██████████████████████████████████████▋ | ▆█▆ 483/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▊ | ▇▇▅ 484/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▊ | █▆▄ 484/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▊ | ▇▅▃ 484/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▊ | ▆▄▂ 484/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▊ | ▅▃▁ 485/500 [97%] in 5s (~0\nSearching |██████████████████████████████████████▉ | ▄▂▂ 486/500 [97%] in 5s (~0\nSearching |███████████████████████████████████████ | ▃▁▃ 487/500 [97%] in 5s (~0\nSearching |███████████████████████████████████████ | ▂▂▄ 487/500 [97%] in 5s (~0\nSearching |███████████████████████████████████████▏| ▁▃▅ 489/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▎| ▂▄▆ 490/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▎| ▃▅▇ 490/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▎| ▄▆█ 490/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▎| ▅▇▇ 490/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▎| ▆█▆ 491/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▍| ▇▇▅ 492/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▍| █▆▄ 492/500 [98%] in 5s (~0\nSearching |███████████████████████████████████████▍| ▇▅▃ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▆▄▂ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▅▃▁ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▄▂▂ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▃▁▃ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▂▂▄ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▍| ▁▃▅ 492/500 [98%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▂▄▆ 493/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▃▅▇ 493/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▄▆█ 493/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▅▇▇ 493/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▆█▆ 493/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▇▇▅ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| █▆▄ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▇▅▃ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▆▄▂ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▅▃▁ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▌| ▄▂▂ 494/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 6s (~0\nSearching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0\nSearching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0\nSearching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 9s (~0\nSearching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▆█▆ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▇▇▅ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| █▆▄ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▇▅▃ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▆▄▂ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▅▃▁ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▄▂▂ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▃▁▃ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 10s (~\nSearching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~\nSearching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 12s (~\nSearching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 12s (\nSearching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 12s (\nSearching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 12s (\nSearching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▃▅▇ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▄▆█ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▅▇▇ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▆█▆ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▇▇▅ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| █▆▄ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▇▅▃ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▆▄▂ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▅▃▁ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▄▂▂ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 13s (\nSearching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s (\u001b[?25h\nSearching |████████████████████████████████████████| 500/500 [100%] in 13.4s (37\n[!] Too many errors of type \"Just a moment: bot redirect challenge\" (13.0%)\n[!] Too many errors of type \"Unsupported username format\" (9.0%)\n[!] Too many errors of type \"Access denied\" (3.0%)\n[-] You can see detailed site check errors with a flag `--print-errors`\n[-] Extracted IDs: {}\n[-] JSON simple report for alexiamgmdt@gmail.com saved in /home/runner/work/osint-tool/osint-tool/reports/report_alexiamgmdt@gmail.com_simple.json\n[*] Short text report:\nSearch by username alexiamgmdt@gmail.com returned 37 accounts.\nExtended info extracted from 0 accounts.\nCountries: us, ru, in, br, vn, th, sg, kr, tw, jp, tr, ph\nInterests (tags): gaming, forum, tech, tasks, documents, sharing, dating, networking\n",
+    "error": ""
+  },
+  "sherlock": {
+    "success": true,
+    "output": "[*] Checking username alexiamgmdt@gmail.com on:\n\n[+] AniWorld: https://aniworld.to/user/profil/alexiamgmdt@gmail.com\n[+] BoardGameGeek: https://boardgamegeek.com/user/alexiamgmdt@gmail.com\n[+] Chaos: https://chaos.social/@alexiamgmdt@gmail.com\n[+] Cracked Forum: https://cracked.sh/alexiamgmdt@gmail.com\n[+] Cults3D: https://cults3d.com/en/users/alexiamgmdt@gmail.com/creations\n[+] Discord: https://discord.com\n[+] Football: https://www.rusfootball.info/user/alexiamgmdt@gmail.com/\n[+] Hive Blog: https://hive.blog/@alexiamgmdt@gmail.com\n[+] HudsonRock: https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=alexiamgmdt@gmail.com\n[+] Patched: https://patched.sh/User/alexiamgmdt@gmail.com\n[+] Shelf: https://www.shelf.im/alexiamgmdt@gmail.com\n[+] Trello: https://trello.com/alexiamgmdt@gmail.com\n[+] chaos.social: https://chaos.social/@alexiamgmdt@gmail.com\n[+] livelib: https://www.livelib.ru/reader/alexiamgmdt@gmail.com\n[+] mastodon.cloud: https://mastodon.cloud/@alexiamgmdt@gmail.com\n[+] mastodon.social: https://mastodon.social/@alexiamgmdt@gmail.com\n[+] mastodon.xyz: https://mastodon.xyz/@alexiamgmdt@gmail.com\n[+] mstdn.social: https://mstdn.social/@alexiamgmdt@gmail.com\n[+] mstdn.io: https://mstdn.io/@alexiamgmdt@gmail.com\n[+] omg.lol: https://alexiamgmdt@gmail.com.omg.lol\n[+] social.tchncs.de: https://social.tchncs.de/@alexiamgmdt@gmail.com\n\n[*] Search completed with 21 results\n",
+    "error": ""
+  }
+}

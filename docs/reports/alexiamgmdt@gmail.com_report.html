@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório OSINT - alexiamgmdt@gmail.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .username {
+            font-size: 1.5em;
+            font-weight: bold;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        .finding {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+        .finding a {
+            color: #667eea;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .finding a:hover {
+            text-decoration: underline;
+        }
+        .source-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 10px;
+        }
+        .raw-output {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Relatório OSINT</h1>
+            <div class="username">@alexiamgmdt@gmail.com</div>
+            <p style="margin-top: 15px; opacity: 0.9;">Gerado em: 2026-01-30 18:32:39 UTC</p>
+        </div>
+        
+        <div class="content">
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">346</div>
+                    <div class="stat-label">Resultados Encontrados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Ferramentas Utilizadas</div>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <strong>ℹ️ Sobre esta investigação:</strong><br>
+                Esta busca foi realizada utilizando as ferramentas Maigret e Sherlock para identificar 
+                perfis públicos associados ao username fornecido em diversas plataformas online.
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">📊 Resultados Consolidados</h2>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">[?25l</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |                                        | ▁▃▅ 0/500 [0%] in 0s (~0s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |                                        | ▂▄▆ 0/500 [0%] in 0s (~0s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |                                        | ▃▅▇ 0/500 [0%] in 0s (~0s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█▎                                      | ▄▆█ 16/500 [3%] in 0s (~9s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█▉                                      | ▅▇▇ 24/500 [5%] in 0s (~9s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 24:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█▉                                      | ▆█▆ 24/500 [5%] in 0s (~8s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██▋                                     | ▇▇▅ 33/500 [7%] in 0s (~8s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███▍                                    | █▆▄ 42/500 [8%] in 0s (~7s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███▋                                    | ▇▅▃ 46/500 [9%] in 1s (~7s,</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████▎                                   | ▆▄▂ 53/500 [11%] in 1s (~6s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████▍                                   | ▅▃▁ 54/500 [11%] in 1s (~6s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 54:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████▍                                   | ▄▂▂ 54/500 [11%] in 1s (~6s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████▍                                   | ▃▁▃ 55/500 [11%] in 1s (~6s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████▌                                   | ▂▂▄ 57/500 [11%] in 1s (~6s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████▏                                | ▁▃▅ 89/500 [18%] in 1s (~5s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████▌                                | ▂▄▆ 94/500 [19%] in 1s (~5s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 94:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████▌                                | ▃▅▇ 94/500 [19%] in 1s (~4s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 95:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████▋                                | ▄▆█ 95/500 [19%] in 1s (~4s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 96:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████▋                                | ▅▇▇ 96/500 [19%] in 1s (~4s</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████▋                               | ▆█▆ 108/500 [22%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 109:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████▊                               | ▇▇▅ 109/500 [22%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 109:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████▊                               | █▆▄ 109/500 [22%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 110:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████▊                               | ▇▅▃ 110/500 [22%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 121:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████▋                              | ▆▄▂ 121/500 [24%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 122:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████▊                              | ▅▃▁ 122/500 [24%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 123:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████▉                              | ▄▂▂ 123/500 [25%] in 1s (~4</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████▊                             | ▃▁▃ 134/500 [27%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████▏                            | ▂▂▄ 139/500 [28%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████▉                            | ▁▃▅ 149/500 [30%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████▍                           | ▂▄▆ 154/500 [31%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 157:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████▌                           | ▃▅▇ 157/500 [31%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████▉                           | ▄▆█ 161/500 [32%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 165:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▎                          | ▅▇▇ 165/500 [33%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▆█▆ 170/500 [34%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 170:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▇▇▅ 170/500 [34%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 170:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | █▆▄ 170/500 [34%] in 1s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 170:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▇▅▃ 170/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 170:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▆▄▂ 170/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 171:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▅▃▁ 171/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 171:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▄▂▂ 171/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 171:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▋                          | ▃▁▃ 171/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 172:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▊                          | ▂▂▄ 172/500 [34%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 173:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▉                          | ▁▃▅ 173/500 [35%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 174:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████▉                          | ▂▄▆ 174/500 [35%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 198:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████▉                        | ▃▅▇ 198/500 [40%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████▏                      | ▄▆█ 214/500 [43%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████▊                      | ▅▇▇ 222/500 [44%] in 2s (~3</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████▍                     | ▆█▆ 230/500 [46%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 232:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████▌                     | ▇▇▅ 232/500 [46%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 235:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████▊                     | █▆▄ 235/500 [47%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████▌                    | ▇▅▃ 243/500 [49%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 244:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████▌                    | ▆▄▂ 244/500 [49%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 246:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████▋                    | ▅▃▁ 246/500 [49%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 246:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████▋                    | ▄▂▂ 246/500 [49%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████▍                   | ▃▁▃ 255/500 [51%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████▌                  | ▂▂▄ 268/500 [54%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████▉                  | ▁▃▅ 273/500 [55%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 273:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████▉                  | ▂▄▆ 273/500 [55%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████▍                 | ▃▅▇ 280/500 [56%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████▊                 | ▄▆█ 284/500 [57%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████▏                | ▅▇▇ 289/500 [58%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████▋                | ▆█▆ 295/500 [59%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████▊               | ▇▇▅ 309/500 [62%] in 2s (~2</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████▏              | █▆▄ 314/500 [63%] in 2s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████▋              | ▇▅▃ 321/500 [64%] in 2s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████▊              | ▆▄▂ 322/500 [64%] in 2s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████▏             | ▅▃▁ 327/500 [65%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 333:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████▋             | ▄▂▂ 333/500 [67%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████▍            | ▃▁▃ 342/500 [68%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████▋            | ▂▂▄ 345/500 [69%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 350:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████            | ▁▃▅ 350/500 [70%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 350:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████            | ▂▄▆ 350/500 [70%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████▊           | ▃▅▇ 360/500 [72%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 363:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████           | ▄▆█ 363/500 [73%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████▉          | ▅▇▇ 373/500 [75%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 376:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████▏         | ▆█▆ 376/500 [75%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████▊         | ▇▇▅ 385/500 [77%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████▍        | █▆▄ 392/500 [78%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████▉        | ▇▅▃ 399/500 [80%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████▍       | ▆▄▂ 405/500 [81%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████       | ▅▃▁ 412/500 [82%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 420:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████▋      | ▄▂▂ 420/500 [84%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████▍     | ▃▁▃ 429/500 [86%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████▉     | ▂▂▄ 436/500 [87%] in 3s (~1</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████▏    | ▁▃▅ 439/500 [88%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████▌    | ▂▄▆ 443/500 [89%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████▋    | ▃▅▇ 445/500 [89%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">on 448:</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████▉    | ▄▆█ 448/500 [90%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████    | ▅▇▇ 450/500 [90%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▌   | ▆█▆ 456/500 [91%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▌   | ▇▇▅ 457/500 [91%] in 3s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▋   | █▆▄ 458/500 [92%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▊   | ▇▅▃ 460/500 [92%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▊   | ▆▄▂ 460/500 [92%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████▉   | ▅▃▁ 461/500 [92%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████   | ▄▂▂ 462/500 [92%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▎  | ▃▁▃ 465/500 [93%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▎  | ▂▂▄ 466/500 [93%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▍  | ▁▃▅ 467/500 [93%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▌  | ▂▄▆ 468/500 [94%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▌  | ▃▅▇ 469/500 [94%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▋  | ▄▆█ 470/500 [94%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▋  | ▅▇▇ 470/500 [94%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▋  | ▆█▆ 471/500 [94%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |█████████████████████████████████████▉  | ▇▇▅ 473/500 [95%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████  | █▆▄ 475/500 [95%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████  | ▇▅▃ 475/500 [95%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▏ | ▆▄▂ 476/500 [95%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▏ | ▅▃▁ 477/500 [95%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▎ | ▄▂▂ 478/500 [96%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▃▁▃ 481/500 [96%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▂▂▄ 481/500 [96%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▁▃▅ 481/500 [96%] in 4s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▂▄▆ 482/500 [96%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▃▅▇ 482/500 [96%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▄▆█ 482/500 [96%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▌ | ▅▇▇ 482/500 [96%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▋ | ▆█▆ 483/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▊ | ▇▇▅ 484/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▊ | █▆▄ 484/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▊ | ▇▅▃ 484/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▊ | ▆▄▂ 484/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▊ | ▅▃▁ 485/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |██████████████████████████████████████▉ | ▄▂▂ 486/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████ | ▃▁▃ 487/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████ | ▂▂▄ 487/500 [97%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▏| ▁▃▅ 489/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▎| ▂▄▆ 490/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▎| ▃▅▇ 490/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▎| ▄▆█ 490/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▎| ▅▇▇ 490/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▎| ▆█▆ 491/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▇▇▅ 492/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| █▆▄ 492/500 [98%] in 5s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▇▅▃ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▆▄▂ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▅▃▁ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▄▂▂ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▃▁▃ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▂▂▄ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▍| ▁▃▅ 492/500 [98%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▂▄▆ 493/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▃▅▇ 493/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▄▆█ 493/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▅▇▇ 493/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▆█▆ 493/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▇▇▅ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| █▆▄ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▇▅▃ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▆▄▂ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▅▃▁ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▌| ▄▂▂ 494/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 6s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 9s (~0</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆█▆ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▇▅ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| █▆▄ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▇▅▃ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▆▄▂ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▃▁ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▂▂ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▁▃ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 10s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 12s (~</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 12s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 12s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 12s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▃▅▇ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▄▆█ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▅▇▇ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▆█▆ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▇▇▅ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| █▆▄ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▇▅▃ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▆▄▂ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▅▃▁ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▄▂▂ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 13s (</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s ([?25h</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Searching |████████████████████████████████████████| 500/500 [100%] in 13.4s (37</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Search by username alexiamgmdt@gmail.com returned 37 accounts.</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Extended info extracted from 0 accounts.</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Countries: us, ru, in, br, vn, th, sg, kr, tw, jp, tr, ph</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #667eea;">Maigret</span>
+                    <div style="margin-top: 8px;">Interests (tags): gaming, forum, tech, tasks, documents, sharing, dating, networking</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] AniWorld: https://aniworld.to/user/profil/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] BoardGameGeek: https://boardgamegeek.com/user/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Chaos: https://chaos.social/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Cracked Forum: https://cracked.sh/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Cults3D: https://cults3d.com/en/users/alexiamgmdt@gmail.com/creations</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Discord: https://discord.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Football: https://www.rusfootball.info/user/alexiamgmdt@gmail.com/</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Hive Blog: https://hive.blog/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] HudsonRock: https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Patched: https://patched.sh/User/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Shelf: https://www.shelf.im/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] Trello: https://trello.com/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] chaos.social: https://chaos.social/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] livelib: https://www.livelib.ru/reader/alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] mastodon.cloud: https://mastodon.cloud/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] mastodon.social: https://mastodon.social/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] mastodon.xyz: https://mastodon.xyz/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] mstdn.social: https://mstdn.social/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] mstdn.io: https://mstdn.io/@alexiamgmdt@gmail.com</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] omg.lol: https://alexiamgmdt@gmail.com.omg.lol</div>
+                </div>
+
+                <div class="finding">
+                    <span class="source-badge" style="background: #764ba2;">Sherlock</span>
+                    <div style="margin-top: 8px;">[+] social.tchncs.de: https://social.tchncs.de/@alexiamgmdt@gmail.com</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🔍 Maigret - Output Completo</h2>
+                <div class="raw-output">[-] Starting a search on top 500 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username alexiamgmdt@gmail.com on:
+[?25l
+Searching |                                        | ▁▃▅ 0/500 [0%] in 0s (~0s, 
+Searching |                                        | ▂▄▆ 0/500 [0%] in 0s (~0s, 
+Searching |                                        | ▃▅▇ 0/500 [0%] in 0s (~0s, 
+Searching |█▎                                      | ▄▆█ 16/500 [3%] in 0s (~9s,
+Searching |█▉                                      | ▅▇▇ 24/500 [5%] in 0s (~9s,
+on 24: 
+[+] Trello: https://trello.com/alexiamgmdt%40gmail.com
+
+Searching |█▉                                      | ▆█▆ 24/500 [5%] in 0s (~8s,
+Searching |██▋                                     | ▇▇▅ 33/500 [7%] in 0s (~8s,
+Searching |███▍                                    | █▆▄ 42/500 [8%] in 0s (~7s,
+Searching |███▋                                    | ▇▅▃ 46/500 [9%] in 1s (~7s,
+Searching |████▎                                   | ▆▄▂ 53/500 [11%] in 1s (~6s
+Searching |████▍                                   | ▅▃▁ 54/500 [11%] in 1s (~6s
+on 54: 
+[+] opensea.io: https://opensea.io/accounts/alexiamgmdt%40gmail.com
+
+Searching |████▍                                   | ▄▂▂ 54/500 [11%] in 1s (~6s
+Searching |████▍                                   | ▃▁▃ 55/500 [11%] in 1s (~6s
+Searching |████▌                                   | ▂▂▄ 57/500 [11%] in 1s (~6s
+Searching |███████▏                                | ▁▃▅ 89/500 [18%] in 1s (~5s
+Searching |███████▌                                | ▂▄▆ 94/500 [19%] in 1s (~5s
+on 94: 
+[+] Tom's guide: http://forums.tomsguide.com/members/?username=alexiamgmdt%40gmail.com
+
+Searching |███████▌                                | ▃▅▇ 94/500 [19%] in 1s (~4s
+on 95: 
+[+] mercadolivre: https://www.mercadolivre.com.br/perfil/alexiamgmdt%40gmail.com
+
+Searching |███████▋                                | ▄▆█ 95/500 [19%] in 1s (~4s
+on 96: 
+[+] Roblox: https://www.roblox.com/user.aspx?username=alexiamgmdt%40gmail.com
+
+Searching |███████▋                                | ▅▇▇ 96/500 [19%] in 1s (~4s
+Searching |████████▋                               | ▆█▆ 108/500 [22%] in 1s (~4
+on 109: 
+[+] OP.GG [LeagueOfLegends] Oceania: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=oce
+
+Searching |████████▊                               | ▇▇▅ 109/500 [22%] in 1s (~4
+on 109: 
+[+] OP.GG [LeagueOfLegends] Middle East: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=me
+
+Searching |████████▊                               | █▆▄ 109/500 [22%] in 1s (~4
+on 110: 
+[+] Kaggle: https://www.kaggle.com/alexiamgmdt%40gmail.com
+
+Searching |████████▊                               | ▇▅▃ 110/500 [22%] in 1s (~4
+on 121: 
+[+] OP.GG [LeagueOfLegends] LAN: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=lan
+
+Searching |█████████▋                              | ▆▄▂ 121/500 [24%] in 1s (~4
+on 122: 
+[+] OP.GG [LeagueOfLegends] North America: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=na
+
+Searching |█████████▊                              | ▅▃▁ 122/500 [24%] in 1s (~4
+on 123: 
+[+] OP.GG [LeagueOfLegends] Vietnam: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=vn
+
+Searching |█████████▉                              | ▄▂▂ 123/500 [25%] in 1s (~4
+Searching |██████████▊                             | ▃▁▃ 134/500 [27%] in 1s (~3
+Searching |███████████▏                            | ▂▂▄ 139/500 [28%] in 1s (~3
+Searching |███████████▉                            | ▁▃▅ 149/500 [30%] in 1s (~3
+Searching |████████████▍                           | ▂▄▆ 154/500 [31%] in 1s (~3
+on 157: 
+[+] OP.GG [LeagueOfLegends] Thailand: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=th
+
+Searching |████████████▌                           | ▃▅▇ 157/500 [31%] in 1s (~3
+Searching |████████████▉                           | ▄▆█ 161/500 [32%] in 1s (~3
+on 165: 
+[+] OP.GG [LeagueOfLegends] Singapore: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=sg
+
+Searching |█████████████▎                          | ▅▇▇ 165/500 [33%] in 1s (~3
+Searching |█████████████▋                          | ▆█▆ 170/500 [34%] in 1s (~3
+on 170: 
+[+] OP.GG [LeagueOfLegends] Brazil: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=br
+
+Searching |█████████████▋                          | ▇▇▅ 170/500 [34%] in 1s (~3
+on 170: 
+[+] OP.GG [LeagueOfLegends] Europe West: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=euw
+
+Searching |█████████████▋                          | █▆▄ 170/500 [34%] in 1s (~3
+on 170: 
+[+] OP.GG [LeagueOfLegends] Korea: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=kr
+
+Searching |█████████████▋                          | ▇▅▃ 170/500 [34%] in 2s (~3
+on 170: 
+[+] OP.GG [LeagueOfLegends] Russia: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=ru
+
+Searching |█████████████▋                          | ▆▄▂ 170/500 [34%] in 2s (~3
+on 171: 
+[+] OP.GG [LeagueOfLegends] Taiwan: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=tw
+
+Searching |█████████████▋                          | ▅▃▁ 171/500 [34%] in 2s (~3
+on 171: 
+[+] OP.GG [LeagueOfLegends] Japan: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=jp
+
+Searching |█████████████▋                          | ▄▂▂ 171/500 [34%] in 2s (~3
+on 171: 
+[+] OP.GG [LeagueOfLegends] Turkey: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=tr
+
+Searching |█████████████▋                          | ▃▁▃ 171/500 [34%] in 2s (~3
+on 172: 
+[+] OP.GG [LeagueOfLegends] Phillippines: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=ph
+
+Searching |█████████████▊                          | ▂▂▄ 172/500 [34%] in 2s (~3
+on 173: 
+[+] OP.GG [LeagueOfLegends] LAS: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=las
+
+Searching |█████████████▉                          | ▁▃▅ 173/500 [35%] in 2s (~3
+on 174: 
+[+] OP.GG [LeagueOfLegends] Europe Nordic & East: https://www.op.gg/summoners/search?q=alexiamgmdt%40gmail.com&region=eune
+
+Searching |█████████████▉                          | ▂▄▆ 174/500 [35%] in 2s (~3
+on 198: 
+[+] TechPowerUp: https://www.techpowerup.com/forums/members/?username=alexiamgmdt%40gmail.com
+
+Searching |███████████████▉                        | ▃▅▇ 198/500 [40%] in 2s (~3
+Searching |█████████████████▏                      | ▄▆█ 214/500 [43%] in 2s (~3
+Searching |█████████████████▊                      | ▅▇▇ 222/500 [44%] in 2s (~3
+Searching |██████████████████▍                     | ▆█▆ 230/500 [46%] in 2s (~2
+on 232: 
+[+] Studfile: https://studfile.net/users/alexiamgmdt%40gmail.com/
+
+Searching |██████████████████▌                     | ▇▇▅ 232/500 [46%] in 2s (~2
+on 235: 
+[+] Livemaster: https://www.livemaster.ru/alexiamgmdt%40gmail.com
+
+Searching |██████████████████▊                     | █▆▄ 235/500 [47%] in 2s (~2
+Searching |███████████████████▌                    | ▇▅▃ 243/500 [49%] in 2s (~2
+on 244: 
+[+] forums.bulbagarden.net: http://forums.bulbagarden.net/members/?username=alexiamgmdt%40gmail.com
+
+Searching |███████████████████▌                    | ▆▄▂ 244/500 [49%] in 2s (~2
+on 246: 
+[+] forums.serebii.net: https://forums.serebii.net/members/?username=alexiamgmdt%40gmail.com
+
+Searching |███████████████████▋                    | ▅▃▁ 246/500 [49%] in 2s (~2
+on 246: 
+[+] authorSTREAM: http://www.authorstream.com/author/alexiamgmdt%40gmail.com/
+
+Searching |███████████████████▋                    | ▄▂▂ 246/500 [49%] in 2s (~2
+Searching |████████████████████▍                   | ▃▁▃ 255/500 [51%] in 2s (~2
+Searching |█████████████████████▌                  | ▂▂▄ 268/500 [54%] in 2s (~2
+Searching |█████████████████████▉                  | ▁▃▅ 273/500 [55%] in 2s (~2
+on 273: 
+[+] AdultFriendFinder: https://adultfriendfinder.com/profile/alexiamgmdt%40gmail.com
+
+Searching |█████████████████████▉                  | ▂▄▆ 273/500 [55%] in 2s (~2
+Searching |██████████████████████▍                 | ▃▅▇ 280/500 [56%] in 2s (~2
+Searching |██████████████████████▊                 | ▄▆█ 284/500 [57%] in 2s (~2
+Searching |███████████████████████▏                | ▅▇▇ 289/500 [58%] in 2s (~2
+Searching |███████████████████████▋                | ▆█▆ 295/500 [59%] in 2s (~2
+Searching |████████████████████████▊               | ▇▇▅ 309/500 [62%] in 2s (~2
+Searching |█████████████████████████▏              | █▆▄ 314/500 [63%] in 2s (~1
+Searching |█████████████████████████▋              | ▇▅▃ 321/500 [64%] in 2s (~1
+Searching |█████████████████████████▊              | ▆▄▂ 322/500 [64%] in 2s (~1
+Searching |██████████████████████████▏             | ▅▃▁ 327/500 [65%] in 3s (~1
+on 333: 
+[+] hashnode: https://hashnode.com/@alexiamgmdt%40gmail.com
+
+Searching |██████████████████████████▋             | ▄▂▂ 333/500 [67%] in 3s (~1
+Searching |███████████████████████████▍            | ▃▁▃ 342/500 [68%] in 3s (~1
+Searching |███████████████████████████▋            | ▂▂▄ 345/500 [69%] in 3s (~1
+on 350: 
+[+] hi5: http://www.hi5.com/alexiamgmdt%40gmail.com
+
+Searching |████████████████████████████            | ▁▃▅ 350/500 [70%] in 3s (~1
+on 350: 
+[+] iXBT: https://forum.ixbt.com/users.cgi?id=info:alexiamgmdt%40gmail.com
+
+Searching |████████████████████████████            | ▂▄▆ 350/500 [70%] in 3s (~1
+Searching |████████████████████████████▊           | ▃▅▇ 360/500 [72%] in 3s (~1
+on 363: 
+[+] getmyuni: https://www.getmyuni.com/user/alexiamgmdt%40gmail.com
+
+Searching |█████████████████████████████           | ▄▆█ 363/500 [73%] in 3s (~1
+Searching |█████████████████████████████▉          | ▅▇▇ 373/500 [75%] in 3s (~1
+on 376: 
+[+] Blu-ray: https://forum.blu-ray.com/member.php?username=alexiamgmdt%40gmail.com
+
+Searching |██████████████████████████████▏         | ▆█▆ 376/500 [75%] in 3s (~1
+Searching |██████████████████████████████▊         | ▇▇▅ 385/500 [77%] in 3s (~1
+Searching |███████████████████████████████▍        | █▆▄ 392/500 [78%] in 3s (~1
+Searching |███████████████████████████████▉        | ▇▅▃ 399/500 [80%] in 3s (~1
+Searching |████████████████████████████████▍       | ▆▄▂ 405/500 [81%] in 3s (~1
+Searching |█████████████████████████████████       | ▅▃▁ 412/500 [82%] in 3s (~1
+on 420: 
+[+] 3ddd: https://3ddd.ru/users/alexiamgmdt%40gmail.com
+
+Searching |█████████████████████████████████▋      | ▄▂▂ 420/500 [84%] in 3s (~1
+Searching |██████████████████████████████████▍     | ▃▁▃ 429/500 [86%] in 3s (~1
+Searching |██████████████████████████████████▉     | ▂▂▄ 436/500 [87%] in 3s (~1
+Searching |███████████████████████████████████▏    | ▁▃▅ 439/500 [88%] in 3s (~0
+Searching |███████████████████████████████████▌    | ▂▄▆ 443/500 [89%] in 3s (~0
+Searching |███████████████████████████████████▋    | ▃▅▇ 445/500 [89%] in 3s (~0
+on 448: 
+[+] Bibsonomy: https://www.bibsonomy.org/user/alexiamgmdt%40gmail.com
+
+Searching |███████████████████████████████████▉    | ▄▆█ 448/500 [90%] in 3s (~0
+Searching |████████████████████████████████████    | ▅▇▇ 450/500 [90%] in 3s (~0
+Searching |████████████████████████████████████▌   | ▆█▆ 456/500 [91%] in 3s (~0
+Searching |████████████████████████████████████▌   | ▇▇▅ 457/500 [91%] in 3s (~0
+Searching |████████████████████████████████████▋   | █▆▄ 458/500 [92%] in 4s (~0
+Searching |████████████████████████████████████▊   | ▇▅▃ 460/500 [92%] in 4s (~0
+Searching |████████████████████████████████████▊   | ▆▄▂ 460/500 [92%] in 4s (~0
+Searching |████████████████████████████████████▉   | ▅▃▁ 461/500 [92%] in 4s (~0
+Searching |█████████████████████████████████████   | ▄▂▂ 462/500 [92%] in 4s (~0
+Searching |█████████████████████████████████████▎  | ▃▁▃ 465/500 [93%] in 4s (~0
+Searching |█████████████████████████████████████▎  | ▂▂▄ 466/500 [93%] in 4s (~0
+Searching |█████████████████████████████████████▍  | ▁▃▅ 467/500 [93%] in 4s (~0
+Searching |█████████████████████████████████████▌  | ▂▄▆ 468/500 [94%] in 4s (~0
+Searching |█████████████████████████████████████▌  | ▃▅▇ 469/500 [94%] in 4s (~0
+Searching |█████████████████████████████████████▋  | ▄▆█ 470/500 [94%] in 4s (~0
+Searching |█████████████████████████████████████▋  | ▅▇▇ 470/500 [94%] in 4s (~0
+Searching |█████████████████████████████████████▋  | ▆█▆ 471/500 [94%] in 4s (~0
+Searching |█████████████████████████████████████▉  | ▇▇▅ 473/500 [95%] in 4s (~0
+Searching |██████████████████████████████████████  | █▆▄ 475/500 [95%] in 4s (~0
+Searching |██████████████████████████████████████  | ▇▅▃ 475/500 [95%] in 4s (~0
+Searching |██████████████████████████████████████▏ | ▆▄▂ 476/500 [95%] in 4s (~0
+Searching |██████████████████████████████████████▏ | ▅▃▁ 477/500 [95%] in 4s (~0
+Searching |██████████████████████████████████████▎ | ▄▂▂ 478/500 [96%] in 4s (~0
+Searching |██████████████████████████████████████▌ | ▃▁▃ 481/500 [96%] in 4s (~0
+Searching |██████████████████████████████████████▌ | ▂▂▄ 481/500 [96%] in 4s (~0
+Searching |██████████████████████████████████████▌ | ▁▃▅ 481/500 [96%] in 4s (~0
+Searching |██████████████████████████████████████▌ | ▂▄▆ 482/500 [96%] in 5s (~0
+Searching |██████████████████████████████████████▌ | ▃▅▇ 482/500 [96%] in 5s (~0
+Searching |██████████████████████████████████████▌ | ▄▆█ 482/500 [96%] in 5s (~0
+Searching |██████████████████████████████████████▌ | ▅▇▇ 482/500 [96%] in 5s (~0
+Searching |██████████████████████████████████████▋ | ▆█▆ 483/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▊ | ▇▇▅ 484/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▊ | █▆▄ 484/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▊ | ▇▅▃ 484/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▊ | ▆▄▂ 484/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▊ | ▅▃▁ 485/500 [97%] in 5s (~0
+Searching |██████████████████████████████████████▉ | ▄▂▂ 486/500 [97%] in 5s (~0
+Searching |███████████████████████████████████████ | ▃▁▃ 487/500 [97%] in 5s (~0
+Searching |███████████████████████████████████████ | ▂▂▄ 487/500 [97%] in 5s (~0
+Searching |███████████████████████████████████████▏| ▁▃▅ 489/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▎| ▂▄▆ 490/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▎| ▃▅▇ 490/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▎| ▄▆█ 490/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▎| ▅▇▇ 490/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▎| ▆█▆ 491/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▍| ▇▇▅ 492/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▍| █▆▄ 492/500 [98%] in 5s (~0
+Searching |███████████████████████████████████████▍| ▇▅▃ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▆▄▂ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▅▃▁ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▄▂▂ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▃▁▃ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▂▂▄ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▍| ▁▃▅ 492/500 [98%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▂▄▆ 493/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▃▅▇ 493/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▄▆█ 493/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▅▇▇ 493/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▆█▆ 493/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▇▇▅ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| █▆▄ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▇▅▃ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▆▄▂ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▅▃▁ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▌| ▄▂▂ 494/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 6s (~0
+Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 7s (~0
+Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 8s (~0
+Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▂▂▄ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▁▃▅ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▂▄▆ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▃▅▇ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▄▆█ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▅▇▇ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▆█▆ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▇▇▅ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| █▆▄ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▇▅▃ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▆▄▂ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▅▃▁ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▄▂▂ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▃▁▃ 495/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 9s (~0
+Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▆█▆ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▇▇▅ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| █▆▄ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▇▅▃ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▆▄▂ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▅▃▁ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▄▂▂ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▃▁▃ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▂▂▄ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▁▃▅ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▂▄▆ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▃▅▇ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▄▆█ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▋| ▅▇▇ 496/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 10s (~
+Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 11s (~
+Searching |███████████████████████████████████████▊| ▃▁▃ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▂▂▄ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▁▃▅ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▂▄▆ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▃▅▇ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▄▆█ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▅▇▇ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▆█▆ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▇▇▅ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| █▆▄ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▇▅▃ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▆▄▂ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▅▃▁ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▊| ▄▂▂ 497/500 [99%] in 12s (~
+Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 12s (
+Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 12s (
+Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 12s (
+Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▃▅▇ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▄▆█ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▅▇▇ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▆█▆ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▇▇▅ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| █▆▄ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▇▅▃ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▆▄▂ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▅▃▁ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▄▂▂ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▃▁▃ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▂▂▄ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▁▃▅ 498/500 [100%] in 13s (
+Searching |███████████████████████████████████████▉| ▂▄▆ 498/500 [100%] in 13s ([?25h
+Searching |████████████████████████████████████████| 500/500 [100%] in 13.4s (37
+[!] Too many errors of type "Just a moment: bot redirect challenge" (13.0%)
+[!] Too many errors of type "Unsupported username format" (9.0%)
+[!] Too many errors of type "Access denied" (3.0%)
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {}
+[-] JSON simple report for alexiamgmdt@gmail.com saved in /home/runner/work/osint-tool/osint-tool/reports/report_alexiamgmdt@gmail.com_simple.json
+[*] Short text report:
+Search by username alexiamgmdt@gmail.com returned 37 accounts.
+Extended info extracted from 0 accounts.
+Countries: us, ru, in, br, vn, th, sg, kr, tw, jp, tr, ph
+Interests (tags): gaming, forum, tech, tasks, documents, sharing, dating, networking
+</div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🕵️ Sherlock - Output Completo</h2>
+                <div class="raw-output">[*] Checking username alexiamgmdt@gmail.com on:
+
+[+] AniWorld: https://aniworld.to/user/profil/alexiamgmdt@gmail.com
+[+] BoardGameGeek: https://boardgamegeek.com/user/alexiamgmdt@gmail.com
+[+] Chaos: https://chaos.social/@alexiamgmdt@gmail.com
+[+] Cracked Forum: https://cracked.sh/alexiamgmdt@gmail.com
+[+] Cults3D: https://cults3d.com/en/users/alexiamgmdt@gmail.com/creations
+[+] Discord: https://discord.com
+[+] Football: https://www.rusfootball.info/user/alexiamgmdt@gmail.com/
+[+] Hive Blog: https://hive.blog/@alexiamgmdt@gmail.com
+[+] HudsonRock: https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=alexiamgmdt@gmail.com
+[+] Patched: https://patched.sh/User/alexiamgmdt@gmail.com
+[+] Shelf: https://www.shelf.im/alexiamgmdt@gmail.com
+[+] Trello: https://trello.com/alexiamgmdt@gmail.com
+[+] chaos.social: https://chaos.social/@alexiamgmdt@gmail.com
+[+] livelib: https://www.livelib.ru/reader/alexiamgmdt@gmail.com
+[+] mastodon.cloud: https://mastodon.cloud/@alexiamgmdt@gmail.com
+[+] mastodon.social: https://mastodon.social/@alexiamgmdt@gmail.com
+[+] mastodon.xyz: https://mastodon.xyz/@alexiamgmdt@gmail.com
+[+] mstdn.social: https://mstdn.social/@alexiamgmdt@gmail.com
+[+] mstdn.io: https://mstdn.io/@alexiamgmdt@gmail.com
+[+] omg.lol: https://alexiamgmdt@gmail.com.omg.lol
+[+] social.tchncs.de: https://social.tchncs.de/@alexiamgmdt@gmail.com
+
+[*] Search completed with 21 results
+</div>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <p>🛡️ Ferramenta OSINT - GitHub Pages + GitHub Actions</p>
+            <p>Relatório gerado automaticamente</p>
+        </div>
+    </div>
+</body>
+</html>
