@@ -43,7 +43,6 @@ jobs:
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
           USERNAME="${{ github.event.inputs.username }}"
         else
-          # Extrai username do título da issue
           USERNAME=$(echo "${{ github.event.issue.title }}" | grep -oP '(?<=@)\w+' | head -1)
           if [ -z "$USERNAME" ]; then
             USERNAME=$(echo "${{ github.event.issue.title }}" | tr -d ' ')
@@ -63,8 +62,6 @@ jobs:
         if [ -d "results" ]; then
           cp -r results/* docs/reports/ 2>/dev/null || true
         fi
-        
-        # Cria index.html se não existir
         if [ ! -f "docs/index.html" ]; then
           cp docs/reports/*_report.html docs/index.html 2>/dev/null || true
         fi
@@ -72,8 +69,6 @@ jobs:
     - name: 🗂️ Update reports index
       run: |
         cd docs/reports
-        
-        # Cria lista de relatórios
         echo "<!DOCTYPE html>
         <html lang='pt-BR'>
         <head>
@@ -124,7 +119,6 @@ jobs:
             <div class='container'>
                 <h1>🔍 OSINT Reports</h1>
                 <ul class='report-list'>" > reports_index.html
-        
         for file in *_report.html; do
           if [ -f "$file" ]; then
             username=$(basename "$file" _report.html)
@@ -134,35 +128,35 @@ jobs:
                   </li>" >> reports_index.html
           fi
         done
-        
         echo "        </ul>
             </div>
         </body>
         </html>" >> reports_index.html
     
-    - name: 💬 Comment on issue (if triggered by issue)
+    - name: 💬 Comment on issue
       if: github.event_name == 'issues'
       uses: actions/github-script@v7
       with:
         script: |
           const username = '${{ steps.get-username.outputs.username }}';
-          const repoUrl = context.payload.repository.html_url;
-          const reportUrl = `${repoUrl.replace('github.com', 'github.io').replace(context.payload.repository.owner.login + '/', context.payload.repository.owner.login + '/' + context.payload.repository.name + '/')}/reports/${username}_report.html`;
+          const owner = context.repo.owner;
+          const repo = context.repo.repo;
+          const reportUrl = `https://${owner}.github.io/${repo}/reports/${username}_report.html`;
+          const indexUrl = `https://${owner}.github.io/${repo}/reports/reports_index.html`;
           
-          github.rest.issues.createComment({
+          await github.rest.issues.createComment({
             issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: |
-  ## 🔍 Investigação OSINT Concluída!
-            
+            owner: owner,
+            repo: repo,
+            body: `## 🔍 Investigação OSINT Concluída!
+
 **Username investigado:** @${username}
 
 📊 **Relatório disponível em:**
 🔗 [Ver Relatório Completo](${reportUrl})
 
 📋 **Índice de todos os relatórios:**
-🔗 [Ver Todos os Relatórios](${repoUrl.replace('github.com', 'github.io').replace(context.payload.repository.owner.login + '/', context.payload.repository.owner.login + '/' + context.payload.repository.name + '/')}/reports/reports_index.html)
+🔗 [Ver Todos os Relatórios](${indexUrl})
 
 ---
 ✨ Relatório gerado automaticamente via GitHub Actions`
