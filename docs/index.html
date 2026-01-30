@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#667eea">
+    <meta name="description" content="Ferramenta OSINT para investigação de usernames usando Maigret e Sherlock">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="OSINT Tool">
+    
+    <title>OSINT Username Search Tool</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            margin-top: 10px;
+        }
+        
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        
+        .status.info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+        }
+        
+        .loader {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+            display: none;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .reports-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+        
+        .reports-section h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .report-link {
+            display: block;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .report-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.85em;
+        }
+        
+        .install-prompt {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .install-prompt button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 0;
+            }
+            
+            .container {
+                border-radius: 0;
+                min-height: 100vh;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 OSINT Tool</h1>
+            <p>Investigação de Usernames</p>
+            <p style="font-size: 0.85em; margin-top: 10px;">Maigret + Sherlock</p>
+        </div>
+        
+        <div class="content">
+            <div class="install-prompt" id="installPrompt">
+                <strong>📱 Instalar como App</strong>
+                <p>Adicione esta ferramenta à tela inicial do seu dispositivo para acesso rápido!</p>
+                <button id="installBtn">Instalar Agora</button>
+            </div>
+            
+            <div class="info-box">
+                <strong>ℹ️ Como funciona:</strong><br>
+                1️⃣ Digite o username que deseja investigar<br>
+                2️⃣ Clique em "Iniciar Investigação"<br>
+                3️⃣ Uma issue será criada no GitHub<br>
+                4️⃣ GitHub Actions executará Maigret e Sherlock<br>
+                5️⃣ O relatório será gerado automaticamente<br><br>
+                <strong>⏱️ Tempo estimado:</strong> 2-5 minutos
+            </div>
+            
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="username">Username para investigar:</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        placeholder="ex: johndoe" 
+                        required
+                        pattern="[a-zA-Z0-9_-]+"
+                        title="Apenas letras, números, _ e -"
+                    >
+                </div>
+                
+                <button type="submit" class="btn" id="submitBtn">
+                    🚀 Iniciar Investigação
+                </button>
+            </form>
+            
+            <div class="loader" id="loader"></div>
+            
+            <div class="status" id="status"></div>
+            
+            <div class="reports-section">
+                <h3>📊 Acessar Relatórios</h3>
+                <a href="reports/reports_index.html" class="report-link" target="_blank">
+                    📁 Ver Todos os Relatórios
+                </a>
+                <a href="#" class="report-link" id="lastReportLink" style="display: none;">
+                    📄 Último Relatório Gerado
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🛡️ Ferramenta OSINT - GitHub Pages + Actions</p>
+            <p>Sem servidor, sem custo, 100% GitHub</p>
+        </div>
+    </div>
+
+    <script>
+        // Configuração do repositório (ALTERAR AQUI!)
+        const GITHUB_CONFIG = {
+            owner: 'SEU-USUARIO',  // ← Altere para seu username do GitHub
+            repo: 'SEU-REPOSITORIO', // ← Altere para o nome do seu repositório
+            token: '' // Deixe vazio, usaremos a API pública
+        };
+
+        // PWA Install Prompt
+        let deferredPrompt;
+        const installPrompt = document.getElementById('installPrompt');
+        const installBtn = document.getElementById('installBtn');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installPrompt.style.display = 'block';
+        });
+
+        installBtn.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log(`User response: ${outcome}`);
+                deferredPrompt = null;
+                installPrompt.style.display = 'none';
+            }
+        });
+
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(reg => console.log('Service Worker registered'))
+                .catch(err => console.log('Service Worker registration failed'));
+        }
+
+        // Form handling
+        const form = document.getElementById('searchForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const loader = document.getElementById('loader');
+        const status = document.getElementById('status');
+        const lastReportLink = document.getElementById('lastReportLink');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value.trim();
+            
+            if (!username) {
+                showStatus('error', 'Por favor, digite um username válido.');
+                return;
+            }
+
+            // Validação da configuração
+            if (GITHUB_CONFIG.owner === 'SEU-USUARIO' || GITHUB_CONFIG.repo === 'SEU-REPOSITORIO') {
+                showStatus('error', '⚠️ Configure o GITHUB_CONFIG no código com seu usuário e repositório do GitHub!');
+                return;
+            }
+
+            submitBtn.disabled = true;
+            loader.style.display = 'block';
+            status.style.display = 'none';
+
+            try {
+                // Cria uma issue no GitHub
+                const issueUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/issues`;
+                
+                const response = await fetch(issueUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/vnd.github.v3+json'
+                    },
+                    body: JSON.stringify({
+                        title: `@${username}`,
+                        body: `🔍 **Investigação OSINT solicitada**\n\n**Username:** @${username}\n\nEsta issue foi criada automaticamente pela interface web. O GitHub Actions irá processar esta solicitação e gerar o relatório.\n\n---\n⏱️ Aguarde 2-5 minutos para o processamento.`,
+                        labels: ['osint-search']
+                    })
+                });
+
+                if (response.ok) {
+                    const issue = await response.json();
+                    showStatus('success', 
+                        `✅ Investigação iniciada com sucesso!<br><br>` +
+                        `<strong>Issue criada:</strong> #${issue.number}<br>` +
+                        `<a href="${issue.html_url}" target="_blank" style="color: #155724;">Ver progresso no GitHub</a><br><br>` +
+                        `⏱️ O relatório estará disponível em aproximadamente 2-5 minutos.<br><br>` +
+                        `📊 Acesse a aba "Relatórios" abaixo para ver o resultado quando estiver pronto.`
+                    );
+                    
+                    // Atualiza link do último relatório
+                    setTimeout(() => {
+                        const reportUrl = `reports/${username}_report.html`;
+                        lastReportLink.href = reportUrl;
+                        lastReportLink.textContent = `📄 Relatório: @${username}`;
+                        lastReportLink.style.display = 'block';
+                    }, 180000); // 3 minutos
+                    
+                    // Limpa o formulário
+                    document.getElementById('username').value = '';
+                } else {
+                    const error = await response.json();
+                    showStatus('error', 
+                        `❌ Erro ao criar issue: ${error.message}<br><br>` +
+                        `<strong>Possíveis causas:</strong><br>` +
+                        `• Verifique se o repositório existe<br>` +
+                        `• Verifique se as Issues estão habilitadas<br>` +
+                        `• Verifique a configuração GITHUB_CONFIG no código`
+                    );
+                }
+            } catch (error) {
+                showStatus('error', 
+                    `❌ Erro de conexão: ${error.message}<br><br>` +
+                    `Verifique sua conexão com a internet e tente novamente.`
+                );
+            } finally {
+                submitBtn.disabled = false;
+                loader.style.display = 'none';
+            }
+        });
+
+        function showStatus(type, message) {
+            status.className = `status ${type}`;
+            status.innerHTML = message;
+            status.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
