@@ -1,0 +1,175 @@
+name: OSINT Username Search
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'Username para investigar'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+
+jobs:
+  osint-search:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🔍 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: 📦 Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install maigret
+        pip install sherlock-project
+    
+    - name: 🎯 Extract username
+      id: get-username
+      run: |
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          USERNAME="${{ github.event.inputs.username }}"
+        else
+          # Extrai username do título da issue
+          USERNAME=$(echo "${{ github.event.issue.title }}" | grep -oP '(?<=@)\w+' | head -1)
+          if [ -z "$USERNAME" ]; then
+            USERNAME=$(echo "${{ github.event.issue.title }}" | tr -d ' ')
+          fi
+        fi
+        echo "username=$USERNAME" >> $GITHUB_OUTPUT
+        echo "🎯 Username: $USERNAME"
+    
+    - name: 🔍 Run OSINT Search
+      run: |
+        python osint_search.py "${{ steps.get-username.outputs.username }}"
+      continue-on-error: true
+    
+    - name: 📄 Move results to docs
+      run: |
+        mkdir -p docs/reports
+        if [ -d "results" ]; then
+          cp -r results/* docs/reports/ 2>/dev/null || true
+        fi
+        
+        # Cria index.html se não existir
+        if [ ! -f "docs/index.html" ]; then
+          cp docs/reports/*_report.html docs/index.html 2>/dev/null || true
+        fi
+    
+    - name: 🗂️ Update reports index
+      run: |
+        cd docs/reports
+        
+        # Cria lista de relatórios
+        echo "<!DOCTYPE html>
+        <html lang='pt-BR'>
+        <head>
+            <meta charset='UTF-8'>
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            <title>OSINT Reports</title>
+            <style>
+                body {
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    min-height: 100vh;
+                }
+                .container {
+                    background: white;
+                    border-radius: 20px;
+                    padding: 30px;
+                    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+                }
+                h1 {
+                    color: #667eea;
+                    text-align: center;
+                }
+                .report-list {
+                    list-style: none;
+                    padding: 0;
+                }
+                .report-item {
+                    background: #f8f9fa;
+                    margin: 10px 0;
+                    padding: 15px;
+                    border-radius: 8px;
+                    border-left: 4px solid #667eea;
+                }
+                .report-item a {
+                    color: #667eea;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+                .report-item a:hover {
+                    text-decoration: underline;
+                }
+            </style>
+        </head>
+        <body>
+            <div class='container'>
+                <h1>🔍 OSINT Reports</h1>
+                <ul class='report-list'>" > reports_index.html
+        
+        for file in *_report.html; do
+          if [ -f "$file" ]; then
+            username=$(basename "$file" _report.html)
+            echo "<li class='report-item'>
+                    <a href='$file'>📊 @$username</a>
+                    <span style='float: right; color: #666;'>$(date -r "$file" '+%Y-%m-%d %H:%M')</span>
+                  </li>" >> reports_index.html
+          fi
+        done
+        
+        echo "        </ul>
+            </div>
+        </body>
+        </html>" >> reports_index.html
+    
+    - name: 💬 Comment on issue (if triggered by issue)
+      if: github.event_name == 'issues'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const username = '${{ steps.get-username.outputs.username }}';
+          const repoUrl = context.payload.repository.html_url;
+          const reportUrl = `${repoUrl.replace('github.com', 'github.io').replace(context.payload.repository.owner.login + '/', context.payload.repository.owner.login + '/' + context.payload.repository.name + '/')}/reports/${username}_report.html`;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## 🔍 Investigação OSINT Concluída!
+            
+**Username investigado:** @${username}
+
+📊 **Relatório disponível em:**
+🔗 [Ver Relatório Completo](${reportUrl})
+
+📋 **Índice de todos os relatórios:**
+🔗 [Ver Todos os Relatórios](${repoUrl.replace('github.com', 'github.io').replace(context.payload.repository.owner.login + '/', context.payload.repository.owner.login + '/' + context.payload.repository.name + '/')}/reports/reports_index.html)
+
+---
+✨ Relatório gerado automaticamente via GitHub Actions`
+          });
+    
+    - name: 📤 Commit and push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "📊 OSINT report for @${{ steps.get-username.outputs.username }}" && git push)
