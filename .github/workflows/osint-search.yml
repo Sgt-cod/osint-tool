@@ -148,18 +148,15 @@ jobs:
             issue_number: context.issue.number,
             owner: owner,
             repo: repo,
-            body: `## 🔍 Investigação OSINT Concluída!
-
-**Username investigado:** @${username}
-
-📊 **Relatório disponível em:**
-🔗 [Ver Relatório Completo](${reportUrl})
-
-📋 **Índice de todos os relatórios:**
-🔗 [Ver Todos os Relatórios](${indexUrl})
-
----
-✨ Relatório gerado automaticamente via GitHub Actions`
+            body:
+              "## 🔍 Investigação OSINT Concluída!\n\n" +
+              "**Username investigado:** @" + username + "\n\n" +
+              "📊 **Relatório disponível em:**\n" +
+              "🔗 [Ver Relatório Completo](" + reportUrl + ")\n\n" +
+              "📋 **Índice de todos os relatórios:**\n" +
+              "🔗 [Ver Todos os Relatórios](" + indexUrl + ")\n\n" +
+              "---\n" +
+              "✨ Relatório gerado automaticamente via GitHub Actions"
           });
     
     - name: 📤 Commit and push results
